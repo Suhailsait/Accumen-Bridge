@@ -57,9 +57,9 @@ export default function CostEffectiveness() {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
-            transition={{ duration: 0.8 }}
+            // initial={{ opacity: 0, x: 50 }}
+            // animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
+            // transition={{ duration: 0.8 }}
           >
             <div className="space-y-8">
               {benefits.map((benefit, index) => (
@@ -82,9 +82,9 @@ export default function CostEffectiveness() {
         </div>
 
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
-          transition={{ duration: 0.7, delay: 0.6 }}
+          // initial={{ opacity: 0, y: 40 }}
+          // animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
+          // transition={{ duration: 0.7, delay: 0.6 }}
           className="mt-20 bg-white rounded-xl p-8 md:p-12 shadow-lg"
         >
           <div className="text-center mb-10">
