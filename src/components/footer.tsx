@@ -7,7 +7,10 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-xl font-bold mb-4">accumenbridge</h3>
+            <span className="">
+              <img src="/assets/images/ACCUMBRIDGE-LOGO.png" alt="Logo" className="w-8 h-8 ml-16 mb-2" />
+              <h3 className="text-xl font-bold mb-4">ACCUMENBRIDGE</h3>
+            </span>
             <p className="text-gray-400 mb-6">Revolutionizing security with AI-powered smart surveillance solutions.</p>
             <div className="flex space-x-4">
               <Link to="/" className="text-gray-400 hover:text-sky-400 transition-colors duration-300">

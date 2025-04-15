@@ -4,7 +4,6 @@ import { useRef } from "react"
 import { useInView } from "framer-motion"
 import { motion } from "framer-motion"
 import { Brain, Shield, Lock } from "lucide-react"
-import placeholder from '../assets/images/placeholder.svg'
 
 export default function Future() {
   const ref = useRef(null)
@@ -97,7 +96,7 @@ export default function Future() {
 
             <div className="relative h-[400px] lg:h-auto">
               <img
-              src={placeholder} height="600" width="800"
+              src="/assets/images/placeholder.svg" height="600" width="800"
               alt="Future of surveillance"
                 className="w-full h-full object-cover"
               />

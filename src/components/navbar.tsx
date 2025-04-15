@@ -69,7 +69,8 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <span className="text-2xl font-bold text-sky-600">Accumenbridge</span>
+          <img src="/assets/images/ACCUMBRIDGE-LOGO.png" alt="Logo" className="w-8 h-8" />
+          <span className="text-base leading-4">ACCUMENBRIDGE</span>
         </Link>
 
         {/* Desktop Navigation */}
