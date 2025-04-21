@@ -53,17 +53,42 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sky: {
-          50: "#f0f9ff",
-          100: "#e0f2fe",
-          200: "#bae6fd",
-          300: "#7dd3fc",
-          400: "#38bdf8",
-          500: "#0ea5e9",
-          600: "#0284c7",
-          700: "#0369a1",
-          800: "#075985",
-          900: "#0c4a6e",
+        // Earthy color palette
+        earth: {
+          50: "#f9f5f0",
+          100: "#f1e8df",
+          200: "#e3d1bf",
+          300: "#d4b99e",
+          400: "#c5a17d",
+          500: "#b6895c",
+          600: "#a77c4a",
+          700: "#8a6539",
+          800: "#6d4e27",
+          900: "#503716",
+        },
+        moss: {
+          50: "#f0f5e9",
+          100: "#e0ebd3",
+          200: "#c1d7a7",
+          300: "#a3c37b",
+          400: "#84af4f",
+          500: "#659b23",
+          600: "#5c8c1f",
+          700: "#4d741a",
+          800: "#3e5c15",
+          900: "#2f4410",
+        },
+        clay: {
+          50: "#f7f2f0",
+          100: "#efe5e0",
+          200: "#dfcbc1",
+          300: "#cfb1a2",
+          400: "#bf9783",
+          500: "#af7d64",
+          600: "#9f6345",
+          700: "#7f4f37",
+          800: "#5f3b29",
+          900: "#3f271b",
         },
       },
       borderRadius: {
@@ -88,8 +113,6 @@ const config = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
 
-export default config
-
-
+export default config;
